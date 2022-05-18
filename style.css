@@ -22,3 +22,81 @@
 .grid-item:hover{
     filter: opacity(0.7);
 }
+
+.contenedor {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto;
+    
+    justify-content: center;
+    height: 600px;
+
+    background-color: #bbbbbb;
+  }
+
+  .contenedor1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    border-radius: 25px;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 20px;
+    height: 500px;
+    width: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+  }
+
+  .item1 {
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    color: #696b2b;
+  }
+
+  .gatitoimg {
+      height: 400px;
+      width: 400px;
+      
+  }
+
+  .item2 {
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 20px;
+    height: 400px;
+    width: 400px;
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: left;
+    color: #313120;
+  }
+
+  .iconos {
+      height: 90px;
+      width: auto;
+
+  }
+
+  .titulo {
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+  }
+
+  .separacion {
+      background-color: white;
+      border: #ffffff 10px;
+      height: 20px;
+      width: 100px;
+  }
+
+  .abajo {
+      height: 120px;
+      width: auto;
+  }
